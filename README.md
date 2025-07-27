@@ -6,5 +6,5 @@
 
 ---
 ### connect with me:-
-<P  href="https://www.linkedin.com/in/suryasnata-dash-584913335/">Linkdin</P> 
+<a href="href="https://www.linkedin.com/in/suryasnata-dash-584913335/"">see an Apple</a>
 ---
