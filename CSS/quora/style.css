@@ -61,3 +61,42 @@
   }
 
   /* Preference: id > class > element */
+
+  /* Pseudoclass: Hover */
+  button:hover{
+    background-color: black;
+    color: white;
+  }
+  h3:hover{
+    text-decoration: none;
+  }
+
+  /* Pseudoclass: Active */
+  button:active{
+    background-color: skyblue;
+    color: black;
+  }
+  p:active{
+    color: green;
+    font-weight: bold;
+  }
+  /* Pseudoclass: Checked */
+  input[type="radio"]:checked + label{
+    font-weight: bold; 
+  }
+
+  /* Pseudoclass: nth of type */
+.post:nth-of-type(1n){
+  background-color: whitesmoke;
+}
+
+/* Psudoelements */
+h1::first-letter{
+  color: black;
+}
+p::first-line{
+  font-weight: bold;
+}
+p::selection{
+  background-color: rgb(249, 249, 169);
+}
