@@ -1,0 +1,7 @@
+div{
+  background-color: yellow;
+}
+/* Input and button do not inherit parents property */
+input, button{
+  background-color: inherit;
+}

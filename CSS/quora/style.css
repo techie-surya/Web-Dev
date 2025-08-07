@@ -9,7 +9,8 @@
     color: purple;
   }
   h1{
-    color: #b92b27;
+      color: #b92b27 !important;
+      /* !important can't be changed */
   }
 
   /* Id Selector */
@@ -60,8 +61,6 @@
     background-color: lightyellow;
   }
 
-  /* Preference: id > class > element */
-
   /* Pseudoclass: Hover */
   button:hover{
     background-color: black;
@@ -91,8 +90,8 @@
 }
 
 /* Psudoelements */
-h1::first-letter{
-  color: black;
+h3::first-letter{
+  color: rgb(246, 40, 246);
 }
 p::first-line{
   font-weight: bold;
@@ -100,3 +99,9 @@ p::first-line{
 p::selection{
   background-color: rgb(249, 249, 169);
 }
+
+/* Preference: id > class, attribute & pseudoclass > element& pseudo-element */
+
+/* Preference id: inline style > id > class > element 
+   More selectors (Better for CSS) > Less selectors
+   If specificity same -> Use Cascading */
