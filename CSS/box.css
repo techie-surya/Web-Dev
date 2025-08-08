@@ -1,0 +1,15 @@
+div{
+  height: 300px;
+  width: 500px;
+  background-color: lightblue;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  border-left-style: dashed;
+  border-left-color: green;
+  border-top-right-radius: 15px;
+}
+h1 {
+border: 2px dotted red;
+border-radius: 50%;
+}
