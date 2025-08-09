@@ -1,0 +1,11 @@
+div{
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  margin: 5px;
+  background-color: lightgray;
+  display: inline-block;
+}
+#third{
+  display: none;
+}

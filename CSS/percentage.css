@@ -1,0 +1,17 @@
+h1{
+  border: 2px solid black;
+  width: 8%;
+  margin-left: 47%;
+}
+#outer{
+  height: 400px;
+  width: 400px;
+  background-color: lightblue;
+  margin: 50px;
+}
+#inner{
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+  margin-left: 10%;
+}
