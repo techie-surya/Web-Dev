@@ -1,0 +1,12 @@
+div{
+  width: 400px;
+  height: 200px;
+  background-color: rgba(255, 0, 0, 0.5);
+  margin: 10px auto;
+  background-image: url("/Images/Background_Image.webp");
+  background-size: cover;
+  color: black;
+  font-size: 50px;
+  font-weight: 800;
+  font-style: italic;
+}
