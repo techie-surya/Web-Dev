@@ -1,0 +1,11 @@
+let primary = ["red","yellow","blue","green"];
+primary.splice(3);
+console.log(primary);
+primary.splice(0,1);
+console.log(primary);
+primary.push("black","white");
+console.log(primary);
+primary.splice(1,2);
+console.log(primary);
+primary.splice(0,1,"indigo","orange");
+console.log(primary);
