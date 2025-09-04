@@ -1,4 +1,3 @@
-let msg = "hello";
-console.log(msg.slice(2));
-console.log(msg.slice(0,4));
-console.log(msg.slice(-2));
+let id2 =setInterval( () => {
+//   console.log("Hello world")
+// }, 3000);
