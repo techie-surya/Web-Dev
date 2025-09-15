@@ -11,6 +11,7 @@ btn.addEventListener("click",function() {
   console.log("color updated");
 });
 
+
 function getRandomColor() {
   let red = Math.floor(Math.random() * 255);
   let green = Math.floor(Math.random() * 255);
