@@ -40,6 +40,7 @@ demo();
 //   console.log("blue color was completed");
 // })
 
+
 // changeColor("red", 1000, () => {
 //   changeColor("orange", 1000, () => {
 //     changeColor("green", 1000, () => {
